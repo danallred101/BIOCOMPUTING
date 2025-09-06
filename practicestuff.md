@@ -1,19 +1,19 @@
-##Daniel Allred
-##9/06/2025
-##assignment_02
+## Daniel Allred
+## 9/06/2025
+## assignment_02
 
 
-###Assignment Tasks:###
+### Assignment Tasks:
 
 
-###Commands Used:###
+### Commands Used:
 
 **Local:**
 
 **HPC:**
 
 
-###MD5 hashes:###
+### MD5 hashes:
 
 
-###Reflection:###
+### Reflection:
