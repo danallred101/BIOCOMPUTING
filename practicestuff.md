@@ -1,6 +1,6 @@
-##Daniel Allred##
-##9/06/2025##
-##assignment_02##
+##Daniel Allred
+##9/06/2025
+##assignment_02
 
 
 ###Assignment Tasks:###
