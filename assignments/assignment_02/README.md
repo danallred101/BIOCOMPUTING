@@ -16,27 +16,27 @@ BIOCOMPUTING (main parent directory)
 * README.md
 * test
 * assignments
-        * assignment_01
+	* assignment_01
         * assignment_02
-                * README.md
+		* README.md
                 * data
 			* 'GCF_000005845.2_ASM584v2_genomic.fna.gz'
 			* 'GCF_000005845.2_ASM584v2_genomic.gff.gz'
 
 
 ### All Commands Used (and file transfer workflow):
-**Local:**
+**Local:**  
 bora  *(alias command to log onto the WM HPC)*
 
-**HPC:**
-*Biocomputing folder was already transfered to HPC during class, so mkdir comma>
-cd BIOCOMPUTING/assignments/
-mkdir -p assignment_02/data
-cd assignment_02
-touch README.md
-nano README.md *opened new terminal to continue work in HPC, while documenting >
+**HPC:**  
+*Biocomputing folder was already transfered to HPC during class, so mkdir comma>  
+cd BIOCOMPUTING/assignments/  
+mkdir -p assignment_02/data  
+cd assignment_02  
+touch README.md  
+nano README.md *opened new terminal to continue work in HPC, while documenting >  
 
-**Local:**
+**Local:**  
 brew install lftp *(MacOS doesn't have the ftp command, after searching decided using the homebrew lftp command was best workaround)*
 lftp ftp.ncbi.nlm.nih.gov
 'cd genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/'
