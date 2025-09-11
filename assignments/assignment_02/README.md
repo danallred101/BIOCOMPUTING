@@ -83,5 +83,7 @@ d='cd -;clear;pwd;ls -alFh --group-directories-first' - tells the current direct
 ll='ls -alFh --group-directories-first' - runs the list command showing all files, long format, in human readable sizes, with a symbol at the end to indicate entry type, it also list all directories first  
 
 ## Reflection:  
-The initial setup of the directories in the HPC was easy and nice practice. The first difficult part was downloading the files from NCBI. Since MacOS doesn't have the FTP command pre-installed I had to do some google and ChatGPT searches to figure out that homebrew has an lftp command which functions very similarly, once I'd figured that out it was quite easy. All the rest was fairly simple, I actually just learned about the MD5 hashes this weekend because I needed to download some data for an RNA-seq experiment. Still getting used to documeing in markdown, but I wouldn't change anything, this felt like a useful assignment.
+The initial setup of the directories in the HPC was easy and nice practice. The first difficult part was downloading the files from NCBI. Since MacOS doesn't have the FTP command pre-installed I had to do some google and ChatGPT searches to figure out that homebrew has an lftp command which functions very similarly, once I'd figured that out it was quite easy. All the rest was fairly simple, I actually just learned about the MD5 hashes this weekend because I needed to download some data for an RNA-seq experiment. Still getting used to documeing in markdown, but I wouldn't change anything, this felt like a useful assignment.  
+P.S. I ended up having a really difficult time doing a git push, kept getting error messages about the connection dropping, ended up making an SSH key which fixed the problem.
+
 
