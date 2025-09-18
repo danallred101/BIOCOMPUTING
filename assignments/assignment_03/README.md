@@ -84,6 +84,10 @@ Output: 1
 Command: grep ">" GCF_000001735.4_TAIR10.1_genomic.fna | sort | head -n 1  
 Reasoning: The grep command selects for sequence headers, the sort command lists them alphabetically, the head command returns the first header in that alphabetical order.  
 Output: >NC_000932.1 Arabidopsis thaliana chloroplast, complete genome  
+**Alternative for Q 9:**
+Command: grep -FB1 "$(grep -v "^>" GCF_000001735.4_TAIR10.1_genomic.fna | sort | head -n 1 | head -c 100)" GCF_000001735.4_TAIR10.1_genomic.fna | head -n 1  
+Reasoning: This command series sorts the sequences by alphabetical order, then takes the first 100 bases of the first sequence (from that alphabetical order) and uses it to grab the header for that sequence. This is sorting alphabetically based on the sequences, not alphabetically based on the headers, but it gave a different output that the answer so I assume this wasn't what Q 9 was asking for, but figured I'd include it anyway.  
+Output: >NC_037304.1 Arabidopsis thaliana ecotype Col-0 mitochondrion, complete genome  
 
 #### Question 10:
 Command: paste <(grep ">" GCF_000001735.4_TAIR10.1_genomic.fna) <(grep -v ">" GCF_000001735.4_TAIR10.1_genomic.fna) > tab_seperated.fasta  
