@@ -77,8 +77,8 @@ echo "$table_names_lengths"
 *save the file and exit nano*  
 chmod 755 install_seqtk.sh  
 
-**Run 'summarize_fasta.sh' in a loop on multiple files**
-*(needed to get 3 fasta files)*
+**Run 'summarize_fasta.sh' in a loop on multiple files**  
+*(needed to get 3 fasta files)*  
 cd ~/BIOCOMPUTING/assignments/assignment_04/  
 mkdir data  
 cd data/  
