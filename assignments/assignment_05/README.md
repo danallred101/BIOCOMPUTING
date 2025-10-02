@@ -12,7 +12,7 @@
 ### Documentation
 
 **Setting up the basic directory**  
-*#naviagte to bora log in, move to the ~/BIOCOMPUTING/assignments/assigment_05 directory  *  
+*#naviagte to bora log in, move to the ~/BIOCOMPUTING/assignments/assigment_05 directory*  
 mkdir -p ./data/{raw,trimmed} ./scripts ./log  
 touch README.md pipeline.sh  
 cd scripts/  
