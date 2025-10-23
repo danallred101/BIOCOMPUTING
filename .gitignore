@@ -4,3 +4,7 @@ assignments/assignment_05/data/raw/*
 assignments/assignment_05/data/trimmed/*
 assignments/assignment_05/log/*
 
+#Lesson_06
+lessons/lesson_06/data/ecoli_bl21de3.fasta
+lessons/lesson_06/data/lambda_reads.fastq
+lessons/lesson_06/data/ref/genome
