@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --job-name=MG_Assembly
+#SBATCH --job-name=ERR10880494_assembly
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
-#SBATCH --time=2-00:00:00
+#SBATCH --time=1-00:00:00
 #SBATCH --mail-type=FAIL,BEGIN,END
 #SBATCH --mail-user=drallred@wm.edu               # change this!
-#SBATCH -o /sciclone/home/drallred/logs/assembletest_%j.out # change this!
-#SBATCH -e /sciclone/home/drallred/logs/assembletest_%j.err # change this!
+#SBATCH -o /sciclone/home/drallred/logs/ERR10880494_assembly_%j.out # change this!
+#SBATCH -e /sciclone/home/drallred/logs/ERR10880494_assembly_%j.err # change this!
 
 
 # set filepath vars
@@ -20,7 +20,7 @@ CONTIG_DIR="${PROJECT_DIR}/contigs"
 mkdir $CONTIG_DIR
 
 
-for fwd in ${DL_DIR}/*1_qc.fastq.gz
+for fwd in ${DL_DIR}/*ERR10880494*1_qc.fastq.gz
 do
 
 # derive input and output variables
